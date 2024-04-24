@@ -7,6 +7,38 @@
     box-sizing: border-box;
 }
 
+body {
+    margin: 30px;
+    height: 100%;
+    width: 100%;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 36px;
+    font-weight:500;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 28px;
+}
+
+h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.5em;
+}
+
+p {
+    font-family: 'Inter', sans-serif;
+    line-height: 1.5em;
+    font-size: 16px;
+    font-weight: normal;
+    margin: 10px;
+}
+
 nav {
     display: flex;
     justify-content: space-between;
@@ -35,11 +67,12 @@ nav a {
     cursor: pointer;
 }
 
-
-
 #primeira-parte {
     display: flex;
-    font-family: 'Inter', sans-serif;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    margin: 50px;
 }
 
 #primeira-parte img {
@@ -52,11 +85,36 @@ nav a {
     border-radius: 5px;
 }
 
-
-
+#primeira-parte button {
+    background-color: #DA2535;
+    color: #FBFBFB;
+    border: none;
+    height: 30px;
+    width: 150px;
+    border-radius: 5px;
+    cursor: pointer;
+}
 
 #segunda-parte {
     display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    margin: 80px;
+    text-align:start;
+}
+
+#segunda-parte h2 {
+    font-weight: 600;
+    font-size: 3rem;
+
+    margin-bottom: 1.5rem;
+}
+
+#segunda-parte p {
+    font-weight: 400;
+    font-size: 1rem;
+    width: 70%;
 }
 
 #segunda-parte img {
@@ -69,63 +127,89 @@ nav a {
     cursor: pointer;
 }
 
-
-
 #terceira-parte {
     display: flex;
+    align-items: center;
+    justify-content:center;
     gap: 2rem;
+    text-align: center;
+    margin: 80px;
 }
 
 .caixa-fundo {
     height: 330px;
     width: 250px;
-    background-color: #DA2535;
+    background-color: #F3F3F3;
     border-radius: 15px;
 }
 
-
-
+#terceira-parte img {
+    height: 200px;
+}
 
 #comentarios {
     display: flex;
     gap: 1.5rem;
+    align-items: center;
+    justify-content: center;
+    margin: 80px;
 }
 
 #comentarios section {
     height: 200px;
-    width: 300px;
-    background-color: #9c5858;
+    width: 370px;
+    background-color: #F3F3F3;
     padding: 15px;
     border-radius: 5px;
     text-align:start;
 }
+
 .img-pessoas {
     height: 60px;
-}
-
-
-
-#img-localizacao {
-    height: 300px;
 }
 
 input {
    height: 30px; 
    width: 420px;
    border-radius: 5px 0 0 5px;
-   border: ;
+   padding: 20px;
+}
+
+#img-localizacao {
+    height: 300px;
+}
+
+#parte-localizacao {
+    display: flex;
+    justify-content: center;
+    margin: 100px;
+}
+
+#localizacao {
+    background: url(imagens/fi_map-pin.png) no-repeat;
+    background-position: 2px;
+    padding-left: 40px;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 80px;
 }
 
 form button {
     background-color: #DA2535;
     color: #FBFBFB;
     border: none;
-    height: 30px;
+    height: 43px;
     width: 150px;
     border-radius: 0 5px 5px 0;
+    cursor: pointer;
 }
 
 footer {
     display: flex;
     justify-content: space-evenly;
+    align-items:flex-start;
 }
