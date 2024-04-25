@@ -18,11 +18,13 @@ h2 {
     font-size: 36px;
     font-weight:500;
     text-align: center;
+    margin-bottom: 25px;
 }
 
 h3 {
     font-family: 'Montserrat', sans-serif;
     font-size: 28px;
+    margin-bottom: 9px;
 }
 
 h4 {
@@ -37,7 +39,7 @@ p {
     line-height: 1.5em;
     font-size: 16px;
     font-weight: normal;
-    margin: 10px;
+    margin-bottom: 25px;
 }
 
 nav {
@@ -65,9 +67,14 @@ nav button {
 
 nav a {
     font-family: 'Inter', sans-serif;
-    color: #292929;
-    cursor: pointer;
+    color: #292929; 
 }
+
+nav a:hover {
+    cursor: pointer;  
+    color: #DA2535;  
+}
+
 
 #primeira-parte {
     display: flex;
@@ -108,9 +115,8 @@ nav a {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 5rem;
+    gap: 8rem;
     margin-bottom: 80px;
-    text-align:start;
 }
 
 #segunda-parte h2 {
@@ -118,7 +124,11 @@ nav a {
     font-family: 'Montserrat', sans-serif;
     font-weight:500;
     text-align: start;
-    margin-bottom: 1.5rem;
+}
+
+#segunda-parte div {
+    width: 360px;
+    margin-bottom: 50px;
 }
 
 #segunda-parte p {
@@ -174,6 +184,14 @@ nav a {
     text-align:start;
 }
 
+#comentario h2 {
+    flex-wrap: wrap;
+}
+
+#comentarios p {
+    margin: 2px;
+}
+
 .img-pessoas {
     height: 60px;
 }
@@ -222,4 +240,8 @@ footer {
     display: flex;
     justify-content: space-evenly;
     align-items:flex-start;
+}
+
+footer p {
+    margin-bottom: 5px;
 }
