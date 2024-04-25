@@ -8,15 +8,16 @@
 }
 
 body {
-    margin: 30px;
     height: 100%;
     width: 100%;
+    padding: 28px 8%;
 }
 
 h2 {
     font-family: 'Montserrat', sans-serif;
     font-size: 36px;
     font-weight:500;
+    text-align: center;
 }
 
 h3 {
@@ -46,6 +47,7 @@ nav {
 
     height: 6rem;
     padding: 0 4rem;
+    margin-bottom: 50px;
 }
 
 ul{
@@ -71,18 +73,24 @@ nav a {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 3rem;
-    margin: 50px;
+    gap: 8rem;
+    margin-bottom: 80px;
+}
+
+#primeira-parte h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 36px;
+    font-weight:500;
+    text-align: start;
+}
+
+#primeira-parte div {
+    width: 360px;
+    margin-bottom: 50px;
 }
 
 #primeira-parte img {
     height: 300px;
-}
-
-#primeira-parte button {
-    height: 30px;
-    width: 120px;
-    border-radius: 5px;
 }
 
 #primeira-parte button {
@@ -93,21 +101,23 @@ nav a {
     width: 150px;
     border-radius: 5px;
     cursor: pointer;
+    align-items: start;
 }
 
 #segunda-parte {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 3rem;
-    margin: 80px;
+    gap: 5rem;
+    margin-bottom: 80px;
     text-align:start;
 }
 
 #segunda-parte h2 {
-    font-weight: 600;
     font-size: 3rem;
-
+    font-family: 'Montserrat', sans-serif;
+    font-weight:500;
+    text-align: start;
     margin-bottom: 1.5rem;
 }
 
@@ -129,7 +139,7 @@ nav a {
 
 #terceira-parte {
     display: flex;
-    align-items: center;
+    align-items:center;
     justify-content:center;
     gap: 2rem;
     text-align: center;
@@ -202,7 +212,7 @@ form button {
     background-color: #DA2535;
     color: #FBFBFB;
     border: none;
-    height: 43px;
+    height: 44px;
     width: 150px;
     border-radius: 0 5px 5px 0;
     cursor: pointer;
