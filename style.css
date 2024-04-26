@@ -17,7 +17,7 @@ h2 {
     font-family: 'Montserrat', sans-serif;
     font-size: 36px;
     font-weight:500;
-    text-align: center;
+    text-align:center;
     margin-bottom: 25px;
 }
 
@@ -25,6 +25,7 @@ h3 {
     font-family: 'Montserrat', sans-serif;
     font-size: 28px;
     margin-bottom: 9px;
+    font-weight: 500;
 }
 
 h4 {
@@ -138,7 +139,7 @@ nav a:hover {
 }
 
 #segunda-parte img {
-    height: 250px;
+    height: 350px;
 }
 
 #segunda-parte a {
@@ -163,6 +164,11 @@ nav a:hover {
     border-radius: 15px;
 }
 
+.conteudo {
+    position: relative;
+    top: -60px;
+}
+
 #terceira-parte img {
     height: 200px;
 }
@@ -182,10 +188,6 @@ nav a:hover {
     padding: 15px;
     border-radius: 5px;
     text-align:start;
-}
-
-#comentario h2 {
-    flex-wrap: wrap;
 }
 
 #comentarios p {
