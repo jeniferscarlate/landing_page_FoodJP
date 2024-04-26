@@ -7,10 +7,15 @@
     box-sizing: border-box;
 }
 
-body {
+/* body {
     height: 100%;
     width: 100%;
     padding: 28px 8%;
+} */
+
+.container-grid {
+    max-width: 900px;
+    margin: 0 auto;
 }
 
 h2 {
@@ -48,9 +53,10 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
 
     height: 6rem;
-    padding: 0 4rem;
     margin-bottom: 50px;
 }
 
@@ -62,9 +68,10 @@ ul{
 nav button {
     cursor: pointer;
     height: 30px;
-    width: 100px;
+    width: 120px;
     background-color: white;
     border-radius: 5px;
+    border: 2px solid black;
 }
 
 nav a {
@@ -93,7 +100,7 @@ nav a:hover {
     text-align: start;
 }
 
-#primeira-parte div {
+#primeira-parte article {
     width: 360px;
     margin-bottom: 50px;
 }
@@ -117,7 +124,7 @@ nav a:hover {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 8rem;
+    gap: 5rem;
     margin-bottom: 80px;
 }
 
@@ -128,11 +135,6 @@ nav a:hover {
     text-align: start;
 }
 
-#segunda-parte div {
-    width: 360px;
-    margin-bottom: 50px;
-}
-
 #segunda-parte p {
     font-weight: 400;
     font-size: 1rem;
@@ -140,7 +142,7 @@ nav a:hover {
 }
 
 #segunda-parte img {
-    height: 350px;
+    height: 340px;
 }
 
 #segunda-parte a {
@@ -193,6 +195,12 @@ nav a:hover {
 
 #comentarios p {
     margin: 2px;
+}
+
+.h2-text {
+    text-align:left;
+    margin-left: 70px;
+
 }
 
 .img-pessoas {
